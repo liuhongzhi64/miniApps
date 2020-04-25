@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/product/product",
+    "custom-tab-bar/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#99FFCC",
+    "selectedColor": "#000",
+    "backgroundColor": "#999",
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/assets/imgs/index.png",
+        "selectedIconPath": "/assets/imgs/indexselected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "/assets/imgs/product.png",
+        "selectedIconPath": "/assets/imgs/productselected.png",
+        "text": "商品"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

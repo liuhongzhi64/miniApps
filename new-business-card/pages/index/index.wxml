@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="index">
+  这是首页
+</view>
