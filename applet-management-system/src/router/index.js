@@ -19,7 +19,11 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../pages/Index/index'),
     children:[
       {
-        path: '/',
+        path: '/index',
+        component: () => import('../pages/Index/IndexMap/indexMap')
+      },
+      {
+        path: '/index/accountNumber',
         component: () => import('../pages/Index/accountNumber/accountNumber')
       },
       {
